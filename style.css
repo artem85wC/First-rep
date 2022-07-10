@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Koulen&family=Lato:wght@300&family=League+Gothic&family=Oswald:wght@200&family=Pacifico&family=Roboto:wght@100&family=Smooch&family=Tiro+Telugu&display=swap");
+h1,
+h2,
+h3,
+h4 {
+    font-family: "League Gothic", sans-serif;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+
+/* header */
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoimg {
+    padding: 20px;
+    width: 30%;
+}
+
+header {
+    background-color: #158532;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+a {
+    margin: 35px 35px;
+    text-decoration: none;
+    color: white;
+}
+
+.search,
+.user {
+    width: 30%;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    background-color: #d9d9d9;
+}
+
+.footerLinks {
+    display: flex;
+}
+
+.picture {
+    /* оформляем картинку в подвале */
+    background: url("images/foto.jpg");
+    background-size: cover;
+    width: 40%;
+}
+
+.footerCol {
+    width: calc((100% - 40px) / 3);
+    margin: 30px 20px;
+    margin-bottom: 70px;
+}
+
+.pFooter {
+    color: black;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footercop {
+    background-color: #717171;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footercop1 {
+    padding: 20px;
+    color: black;
+}
+
+.icon1 {
+    width: 25%;
+}
+
+.slide {
+    background-image: url(images/m1.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+}
+
+main {
+    background-color: #0cb78e;
+}
+
+h2 {
+    font-size: 25px;
+    margin: 30px;
+}
+
+h3 {
+    color: black;
+    font-size: 20px;
+    margin: 30px;
+}
+
+article {
+    display: flex;
+    width: 100%;
+}
+
+.card {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    flex-direction: column;
+}
+
+p {
+    color: white;
+    margin-top: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+button {
+    width: 150px;
+    height: 35px;
+    background-color: #158532;
+    font-size: 22px;
+    color: white;
+    padding: 15px;
+    border: 5px solid white;
+    border-radius: 35px;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardimg {
+    height: 300px;
+    width: 200px;
+    margin: 30px;
+}
+
+.football {
+    background-image: url(images/fon.jpg);
+    padding: 250px;
+    flex-direction: column;
+}
+
+h4 {
+    font-size: 35px;
+}
+
+input {
+    width: 160px;
+    height: 50px;
+    background-color: #9df3b4;
+    font-size: 22px;
+    color: black;
+    padding: 15px;
+    border: 5px solid black;
+    border-radius: 35px;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
